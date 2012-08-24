@@ -16,7 +16,6 @@ Get current value:
 
     php -r "echo ini_get('memory_limit').PHP_EOL;"
 
-
 Increase limit with `php.ini` for a `CLI SAPI` (ex. `/etc/php5/cli/php.ini` for Debian-like systems):
 
     ; Use -1 for unlimited or define explicit value like 512M
